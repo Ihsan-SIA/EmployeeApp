@@ -71,7 +71,7 @@ namespace ConsoleAdoDotNet
                 }
                 catch (MySqlException ex)
                 {
-                    Console.WriteLine($"Error: {ex.Message}");
+                    Console.WriteLine($"Error: {ex.Message}")
                 }
             }
         }
@@ -80,7 +80,7 @@ namespace ConsoleAdoDotNet
         {
             Console.WriteLine("\nAll Employees");
 
-            ConsoleTable table = new("Name", "Email", "Department", "Hire Date", "Salary")
+            ConsoleTable table = new("Name", "Email", "Department", "Hire Date", "Salary");
 
             using (MySqlConnection connection = new(_connectionString))
             {
