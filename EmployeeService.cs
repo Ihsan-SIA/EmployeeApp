@@ -109,7 +109,7 @@ namespace ConsoleAdoDotNet
         }
 
         public async Task ViewEmployeeById()
-        {
+        
             Console.Write("\nEnter Employee ID: ");
 
             if (!Guid.TryParse(Console.ReadLine(), out Guid id))
