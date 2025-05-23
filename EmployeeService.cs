@@ -76,7 +76,7 @@ namespace ConsoleAdoDotNet
             }
         }
 
-        public async Task ViewAllEmployeesAsync()
+        public async Task ViewAllEmployees()
         {
             Console.WriteLine("\nAll Employees");
 
