@@ -274,6 +274,7 @@ namespace ConsoleAdoDotNet
 
                 try
                 {
+                    ;
                     await connection.OpenAsync();
                     var rowsAffected = await command.ExecuteNonQueryAsync();
                     int rowsAffectedInt = Convert.ToInt32(rowsAffected);
