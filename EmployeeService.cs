@@ -99,7 +99,7 @@ namespace ConsoleAdoDotNet
 
                     table.Write(Format.Default);
 
-                    reader.Close()
+                    reader.Close();
                 }
                 catch (MySqlException ex)
                 {
