@@ -64,7 +64,7 @@ namespace ConsoleAdoDotNet
                     await connection.OpenAsync();
                     int rowsAffected = await command.ExecuteNonQueryAsync();
 
-                    if (rowsAffected > 0) ;
+                    if (rowsAffected > 0) 
                     {
                         Console.WriteLine("Employee added successfully!");
                     }
