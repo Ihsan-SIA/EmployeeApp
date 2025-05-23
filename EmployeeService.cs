@@ -108,7 +108,7 @@ namespace ConsoleAdoDotNet
             }
         }
 
-        public async Task ViewEmployeeById(
+        public async Task ViewEmployeeById()
         {
             Console.Write("\nEnter Employee ID: ");
 
