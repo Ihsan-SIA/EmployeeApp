@@ -86,7 +86,6 @@ namespace ConsoleAdoDotNet
             {
                 string query = "SELECT * FROM Employees";
                 MySqlCommand command = new(query, connection);
-
                 try
                 {
                     await connection.OpenAsync();
