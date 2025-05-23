@@ -2,7 +2,6 @@
 using ConsoleAdoDotNet;
 
 //string connectionString = "Data Source=DESKTOP-94O70OH;Initial Catalog=EmployeeDb;Integrated Security=True;Trust Server Certificate=True";
-//string connectionString = "Server=localhost;Database=employee_db;Uid=root;Pwd=1hsan@SQL";
 
 string mySqlConnectionString = "server=localhost; user=root; database=employee_db; password =  1hsan@SQL";
 var employeeService = new EmployeeService(mySqlConnectionString);
