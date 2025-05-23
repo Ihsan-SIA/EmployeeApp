@@ -71,7 +71,7 @@ namespace ConsoleAdoDotNet
                 }
                 catch (MySqlException ex)
                 {
-                    Console.WriteLine($"Error: {ex.Message}")
+                    Console.WriteLine($"Error: {ex.Message}");
                 }
             }
         }
